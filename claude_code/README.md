@@ -58,8 +58,7 @@ irm https://claude.ai/install.ps1 | iex
 这里要用到一个新的工具，叫 Coding Tool Helper。
 用这个工具可以方便地把 GLM 的服务器配置，导入到 Claude Code 里。
 1. 再次进入终端，输入下面的命令行，回车
-npx 
-NPX @z_ai/编码助手@z_ai/coding-helper
+npx @z_ai/coding-helper
 2. 这时候你会看到一个亲切的中文界面
 ![](./img/操作界面.jpg)
 3. 你按照这个工具的提示，把在上面拿到的 API Key 粘贴到这里，并且按提示一步一步地走完就可以了。
