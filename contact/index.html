@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#514537">
+  <meta name="description" content="Continue to our WhatsApp contact page.">
+  <title>Contact us</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./config.js" defer></script>
+  <script src="./page.js" defer></script>
+</head>
+<body>
+  <main class="landing">
+    <div class="backdrop" aria-hidden="true"></div>
+    <div class="shade" aria-hidden="true"></div>
+      <svg class="menu-arrow" viewBox="0 0 90 100" aria-hidden="true" hidden><path d="M12 88C55 93 67 62 64 30L45 37 67 8 88 36 73 32C80 77 54 103 12 95Z" fill="white"/></svg>
+    <section class="panel" aria-label="Continue to WhatsApp">
+      <a class="hold-card" id="contact-link" aria-describedby="instructions" href="#setup">
+        <span class="hand" aria-hidden="true">👆</span>
+        <h1>Press &amp; Hold</h1>
+        <p id="instructions">Hold this button for 1–10s, then<br class="wide-break"> tap “Open App” to continue.</p>
+      </a>
+
+      <aside class="browser-help" aria-labelledby="android-title" hidden>
+        <span class="chain" aria-hidden="true">🔗</span>
+        <h2 id="android-title">Follow These Steps</h2>
+        <ol><li>Tap the three dots in the top right corner</li><li>Select “Open in Chrome” or “Open in Browser”</li><li>Continue to your destination</li></ol>
+      </aside>
+      <p class="setup" id="setup" role="status" hidden>Preview only · WhatsApp contact link has not been configured.</p>
+      <p class="fallback">Having trouble? Use the menu <span aria-hidden="true">•••</span> to open this page in your browser.</p>
+    </section>
+  </main>
+</body>
+</html>
